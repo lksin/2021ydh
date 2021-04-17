@@ -1,0 +1,124 @@
+/*
+/*
+/*  custom.css
+/*
+/*  If not using Gulp and Sass, add your custom CSS below then include it
+/*  in your page by adding a reference to assets/css/custom.css in the head of each page.
+/*
+*/
+
+.theme-list ul {
+  list-style-image: url(../img/icons/theme/home/book-open.svg);
+}
+
+.theme-list li {
+  line-height: 3rem;
+}
+
+h1,
+.h1 {
+  font-size: 1.75rem;
+}
+
+h2,
+.h2 {
+  font-size: 1.5rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.25rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.125rem;
+}
+
+h5,
+.h5 {
+  font-size: 1rem;
+}
+
+h6,
+.h6 {
+  font-size: 0.85rem;
+}
+
+
+article ol>li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.editor_js--paragraph {
+  font-size: 1.2em !important;
+  margin-top: 0.86em;
+  margin-bottom: 26px;
+  word-wrap: break-word;
+}
+
+.editor_js--code {
+  background: #fafafa;
+  display: block;
+  padding: 25px;
+  color: #888;
+  border: 1px dashed #e6e6e6;
+  line-height: 1.6em;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  white-space: pre-line;
+  word-wrap: normal;
+  overflow-x: auto;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+body{
+  height:auto;
+}
+.theme-bg {
+  background-color: var(--theme-color) !important;
+}
+.navbar-container nav.navbar .nav-link {
+  color: #eee;
+}
+.navbar-container nav.navbar .nav-link:hover {
+  color: #fff;
+}
+footer {
+  padding: 0;
+}
+@media (min-width: 768px){
+.docs-sidebar{
+height: calc(100vh - 4.8625rem);
+  }
+}
+.highlight{
+color: #e27a40;
+background:unset;
+}
+.avatar {
+flex-shrink: 0;
+width: 2rem;
+height: 2rem;
+border-radius: 50%;
+}
+.navfooter{
+  margin: 0 auto;
+  display: table;
+}
+svg.icon * {
+  fill: yellowgreen;
+}
+@media (max-width: 767.9px){
+  #docs-index {
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    background: white;
+    left: 0;
+    padding: 1rem 2rem;
+    top: 65px;
+    border-bottom: 1px solid #d7d7d7;
+    box-shadow: 0 0.625rem 1.5rem rgba(0, 0, 0, 0.08) !important;
+  }
+}

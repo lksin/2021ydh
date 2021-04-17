@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>404 | 页面不存在 | Baklib</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    # body {
+    #   background-image: url('/assets/tenant/errors/error-bg.png');
+    # }
+    .dialog{
+      margin-top: 50px;
+    }
+    .dialog .dialog-img{
+      text-align: center;
+      font-family:Microsoft YaHei;
+    }
+    .dialog .dialog-img img{
+      max-width: 100%;
+    }
+    .dialog .dialog-title{
+      font-weight:400;
+      color:rgba(48,48,48,1);
+      font-size: 2rem
+    }
+    .dialog .dialog-text{
+      font-weight:400;
+      color:rgba(48,48,48,1);
+    }
+    .dialog .dialog-text a{
+      color: #3CE7CB
+    }
+    .dialog .dialog-text a:hover{
+      color: #03C9A9;
+    }
+    footer {
+      position: absolute;
+      bottom: 0;
+      z-index: 1030;
+      width: 100%;
+    }
+
+    @media screen and (max-height:730px){
+      footer {
+        position: relative;
+      }
+    }
+    .justify-content-center {
+      display: flex;
+      justify-content: center;
+    }
+    .sticky-top {
+      position: sticky;
+      top: 0;
+      z-index: 1020;
+    }
+    footer div p a img {
+      position: absolute;
+      bottom: -4.5px;
+    }
+    footer div p a {
+      position: relative;
+      width: 80px;
+      display: inline-block;
+    }
+    .alert {
+      position: relative;
+      padding: .75rem 1.25rem;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      text-align: center;
+    }
+    .alert-primary {
+      color: #155724;
+      background-color: #d4edda;
+      border-color: #c3e6cb;
+    }
+    a {
+      color: #03C9A9;
+      text-decoration-line: none;
+    }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <div class="dialog">
+    <div class='dialog-img'>
+      <img src="../tanmer-public-404.png" alt="">
+      <h1 class='dialog-title'>404! 页面不存在</h1>
+      <div class="sticky-top justify-content-center">
+        <span class='alert alert-primary' style='text-align:center'>
+          <a href="../6f0a/3d4c.htm" target="_blank">了解详情，为什么会出现404页面?</a>
+        </span>
+      </div>
+      <p class='dialog-text'>
+        不过如果您需要搭建⾃⼰的知识库的话，<a href="https://baklib.com/?utm_source=404" target="_blank">Baklib</a>可以提供帮助
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <div class='justify-content-center'>
+      <p>
+        <a href="https://baklib.com/?utm_source=404" target="_blank">
+          <img src='../baklib_logo.png' width='80px' />
+        </a>
+        提供技术支持
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
